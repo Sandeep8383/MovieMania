@@ -1,0 +1,356 @@
+* {
+	margin: 0 0;
+	padding: 0 0;
+	font-family: Ariel, Helvetica, sans-serif;
+}
+
+.container {
+	width: 80%;
+	margin: auto auto;
+	padding: 1%;
+}
+
+
+.text-center {
+	display: block;
+	text-align: center;
+}
+
+a {
+	color: #ff6b81;
+}
+
+a:hover {
+	color: #ee5253;
+}
+
+h1 {
+	color: white;
+	font-size: 100px;
+	text-shadow: 0 0 3px #FF0000, 0 0 5px #0000FF;
+}
+
+h5 {
+	color: beige;
+	text-shadow: 0 0 3px #b14c4c, 0 0 5px #4141c4;
+	text-decoration: underline;
+	text-underline-position: below;
+}
+
+h2 {
+	color: #30336b;
+	font-size: 50px;
+}
+
+h4 {
+	color: #eb2f06;
+}
+
+a {
+	text-decoration: none;
+}
+
+ul {
+	list-style-type: none;
+}
+
+.btn {
+	padding: 1%;
+	font-size: 1rem;
+	cursor: pointer;
+	border-radius: 5px;
+}
+
+.btn-primary {
+	background-color: #ff6b81;
+	color: white;
+}
+
+.btn-primary:hover {
+	background-color: #ff4757;
+	color: white;
+}
+
+.clearfix {
+	clear: both;
+	float: none;
+}
+
+.img-responsive {
+	width: 100%;
+	height: 400px;
+}
+
+.img-responsive-mini {
+	width: 100%;
+	height: 150px;
+}
+
+.img-curve {
+	border-radius: 10px;
+}
+
+.zoom:hover {
+	transform: scale(1.1);
+}
+
+/*css for head section*/
+.Head {
+	background-image: url("https://source.unsplash.com/user/erondu/1600x900");
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center;
+	padding: 13%;
+}
+
+/* .searchBar{
+	width: 100%;
+	max-width: 700px;
+	background: rgba(255, 255, 255, 0.2);
+	display: flex;
+	align-items: center;
+	border-radius: 94px;
+	padding: 2px 11px;
+}
+
+.searchBar input{
+	background: transparent;
+	flex: 1;
+	border: 0;
+	outline: none;
+	padding: 24px 20px;
+	font-size: 20px;
+	color: #cac7ff;
+}
+
+.searchBar button img{
+	width: 25px;
+}
+.searchBar button{
+	border: 0;
+	border-radius: 50%;
+	width: 60px;
+	height: 60px;
+	background: #78629b;
+	cursor: pointer;
+	
+} */
+
+/*css for navbar section*/
+
+.navigation ul li {
+	display: inline;
+	padding: 3%;
+	font-weight: bold;
+}
+
+/*css for welcome bar*/
+.Welcome {
+	background-color: #ececec;
+	padding: 4% 0;
+}
+
+.Welcome p {
+	font-size: 20px;
+}
+
+.specialities {
+	width: 45%;
+	margin: 0 auto;
+	padding: 1%;
+}
+
+/*css for movie of the day*/
+.Dish {
+	padding: 4% 0;
+}
+
+.dish-img {
+	width: 25%;
+	float: left;
+}
+
+.dish-desc {
+	width: 61%;
+	padding: 1%;
+	float: left;
+}
+
+.dish-price {
+	font-size: 1.2rem;
+	margin: 1% 0;
+}
+
+.dish-det {
+	color: #7f8fa6;
+	text-align: justify;
+}
+
+.box_1 {
+	border: 2px solid red;
+	width: 45%;
+	margin: 0 auto;
+	padding: 2%;
+	background-color: #f5f6fa;
+	border-radius: 10px;
+}
+
+.box_3 {
+	width: 28%;
+	margin: 2%;
+	float: left;
+}
+
+.pdish {
+	font-size: 25px;
+}
+
+/*css for Explore page*/
+.menu {
+	padding: 4% 0;
+	background-color: #ececec;
+}
+
+.menu p {
+	color: #eb2f06;
+	font-size: 30px;
+
+}
+
+/*css for about page*/
+.About {
+	background-color: #ececec;
+}
+
+/*css for contact*/
+.Contact {
+	padding: 1%;
+	background-color: #273c75;
+}
+
+.Contact ul li {
+	display: inline;
+	padding: 1%;
+}
+
+/*css for footer*/
+.Footer {
+	background-color: #192a56;
+	color: white;
+}
+
+.Footer a {
+	color: #00cec9;
+}
+
+.Footer a:hover {
+	color: #81ecec;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+.form-style-3 {
+	margin: auto;
+	
+	text-align: center;
+	max-width: 450px;
+	font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+}
+
+.form-style-3 label {
+	display: block;
+	margin-bottom: 10px;
+}
+
+.form-style-3 label>span {
+	float: left;
+	width: 100px;
+	color: #ff0002;
+	font-weight: bold;
+	font-size: 13px;
+	text-shadow: 1px 1px 1px #fff;
+}
+
+.form-style-3 fieldset {
+	border-radius: 10px;
+    -webkit-border-radius: 16px;
+    -moz-border-radius: 10px;
+    /* margin: 45px -195px 82px 337px; */
+	margin: 0px 0px 10px 0px;
+    border: 1px solid #9f0000;
+    padding: 20px;
+    background: #f6f1f1;
+    box-shadow: inset 0px 0px 15px #FFE5E5;
+    -moz-box-shadow: inset 0px 0px 15px #FFE5E5;
+    -webkit-box-shadow: inset 0px 0px 15px #FFE5E5;
+}
+
+.form-style-3 fieldset legend {
+	color: #ff0000;
+	border-top: 1px solid #FFD2D2;
+	border-left: 1px solid #FFD2D2;
+	border-right: 1px solid #FFD2D2;
+	border-radius: 5px 5px 0px 0px;
+	-webkit-border-radius: 5px 5px 0px 0px;
+	-moz-border-radius: 5px 5px 0px 0px;
+	background: #d8cccc;
+	padding: 0px 8px 3px 8px;
+	box-shadow: -0px -1px 2px #F1F1F1;
+	-moz-box-shadow: -0px -1px 2px #F1F1F1;
+	-webkit-box-shadow: -0px -1px 2px #F1F1F1;
+	font-weight: normal;
+	font-size: 12px;
+}
+
+.form-style-3 textarea {
+	width: 300px;
+	height: 150px;
+}
+
+.form-style-3 input[type=text],
+
+.form-style-3 input[type=email],
+.form-style-3 select, 
+.form-style-3 textarea{
+	border-radius: 3px;
+	-webkit-border-radius: 3px;
+	-moz-border-radius: 3px;
+	border: 1px solid #ff0202;
+	outline: none;
+	color: #F072A9;
+	padding: 5px 8px 5px 8px;
+	box-shadow: inset 1px 1px 4px #FFD5E7;
+	-moz-box-shadow: inset 1px 1px 4px #FFD5E7;
+	-webkit-box-shadow: inset 1px 1px 4px #FFD5E7;
+	background: #FFEFF6;
+	width:50%;
+}
+.form-style-3  input[type=submit],
+.form-style-3  input[type=button]{
+	background: #d62f2c;
+	border: 1px solid #270715;
+	padding: 6px 15px 5px 15px;
+	color: #FFCBE2;
+	box-shadow: inset -1px -1px 3px #ff8962;
+	-moz-box-shadow: inset -1px -1px 3px #ff8962;
+	-webkit-box-shadow: inset -1px -1px 3px #ff8962;
+	border-radius: 3px;
+	border-radius: 3px;
+	-webkit-border-radius: 3px;
+	-moz-border-radius: 3px;	
+	font-weight: bold;
+}
+.required{
+	color:red;
+	font-weight:normal;
+}

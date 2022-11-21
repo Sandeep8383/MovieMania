@@ -1,0 +1,48 @@
+<html>
+<script src=jquery-3.6.1.min.js></script>
+<script>
+    $(document).ready(function () {
+        $("#rollover").click(function () {
+            $("#dashboard").slideToggle("slow");
+        });
+    });
+</script>
+
+<head>
+    <title>Blank</title>
+    <style>
+        body {
+            margin: 0;
+        }
+
+        #dashboard,
+        #rollover {
+            padding: 20px;
+            color: wheat;
+            text-align: center;
+            background-color: cadetblue;
+
+        }
+
+        #dashboard {
+            font-size: large;
+            padding: 100px;
+            display: none;
+            border: 2px solid rgb(72, 109, 194);
+
+        }
+    </style>
+
+<body>
+    <div id="rollover">Blank Page</div>
+    <div id="dashboard">I told you it's a Blank Page</div>
+    </body>
+
+</html>
+
+
+<!-- validation 
+roll over
+spinning buttons
+form spree : Feed back forms
+and dont make a food delivering webpage -->
